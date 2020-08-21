@@ -1,0 +1,543 @@
+h2{
+text-align:center;
+font-family: 'Bellota Text';
+margin-bottom: 5%;
+font-weight: bold;
+}
+#mainsponsor{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*h1{
+  text-shadow: 2px 2px rgb(220,220,220,0.4);
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Bellota Text';
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(0,212,255,1) 100%);
+  padding:1% 11% 1% 7%;
+  font-size: 500%;
+}*/
+#mainsponsor:hover{
+    opacity:0.5;
+  }
+body{
+  
+background: rgb(192,244,255);
+background: linear-gradient(90deg, rgba(192,244,255,1) 0%, rgba(255,255,255,1) 51%, rgba(174,241,255,1) 100%);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.text-box{
+  position: absolute;
+  top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+@keyframes Jump{
+
+  0%{
+   opacity: 0;
+   transform: translateY(-3.75rem) ;
+  }
+
+  60%{
+    transform: translateY(3.75rem);
+  }
+  
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+
+}
+#sponsorss{
+  height: 65vh;  
+  background-image: linear-gradient(to right bottom,rgba(167 200 202 / 80%),rgba(48,227,202,0.8)), url(https://images.all-free-download.com/images/graphiclarge/abstract_blue_technical_background_311541.jpg);
+  background-size: contain;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50vh,0 100%);
+    position: relative;
+}
+
+.sponsorss-heading{
+  font-weight: 400;
+    font-size: 3.75rem;
+    letter-spacing: 2.1875rem;
+    color: #fff;
+    animation: Jump 1.5s linear 0.25s;
+    margin: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.other-sponsors{
+  padding: 20px;
+  display: block;
+  margin:auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 2%;
+}
+#sponsor-images{
+  margin: 5% 5% 5% 5%;
+}
+.other-sponsors:hover{
+  opacity: 0.5;
+}
+.hiddendiv{
+  position: relative;
+}
+.hiddentext {
+  display: none;
+}
+.hiddendiv:hover .hiddentext {
+  display:block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.carousel-inner{
+  height: 90vh;
+}
+.carousel-inner img{
+  color:rgba(0,0,0,0.5);
+  margin: auto;
+  
+}
+
+
+#myCarousel div img{
+  color:rgba(0,0,0,0.5);
+  margin: auto;
+  width: 70%;
+  
+
+}
+
+#contact{
+background-image: linear-gradient(to right bottom,rgba(17,153,158,0.8),rgba(48,227,202,0.8)), url(https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg);
+background-position: right;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+color: #fff;
+margin-top: 30;
+}
+
+#contact a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.cta1{
+  display: block;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 900;
+  font-size: 4.2rem;
+  letter-spacing: 0.25rem;
+  padding: 7%;
+  text-align: center;
+}
+
+.cta2{
+  display: block;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: .125rem;
+  padding: 2%;
+  text-align: center;
+}
+.cta3{
+  font-size: 1.5rem; 
+}
+
+.address{
+  padding: 6%;
+}
+
+#footer{
+text-align: center;
+padding: 4.75rem;
+}
+.icon{
+  color: gray;
+  margin-left: 2.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.pfooter{
+  font-family: "Lato",sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+
+
+
+
+@media (min-width: 17.5rem) and (max-width: 25.6rem){
+.heading-primary-main{
+  font-size: 2rem;
+  letter-spacing: 1.2rem;
+}
+
+.heading-primary-date{
+  text-transform: capitalize;
+}
+
+.reg-heading{
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.reg-info{
+  font-size: 1.2rem;
+}
+
+.event-heading{
+  font-size: 2.5rem;
+  letter-spacing: .9rem;
+}
+
+.event-details{
+  width: 100%;
+  display: block;
+  padding: 0;
+  text-align: left;
+}
+.event-main-title-1{
+  font-size: 2.5rem;
+}
+.event-main-title-2{
+  font-size: 2.5rem;
+}
+.event-para{
+  font-size: 1.4rem;
+}
+.event-name{
+  font-size: 1.6rem;
+}
+.eimage2{
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.eimage1{
+  width: 100%; 
+  margin-bottom: 20%;
+}
+.left{
+  float: none;
+}
+
+.right{
+  float: none;
+}
+
+.gallery-heading{
+  font-size: 170%;
+}
+
+.cta1{
+  font-size: 160%;
+}
+.cta2{
+  font-size: 1.3rem;
+}
+.cta3{
+  font-size: 1.2rem;
+}
+
+#footer{
+  padding: 1.875rem 0;
+}
+.pfooter{
+  font-size: 0.9rem;
+}
+}
+
+
+
+@media (min-width:25.6rem) and (max-width: 48rem){
+
+.heading-primary-main{
+padding-left: 2.5rem;
+font-size: 2.4rem;
+}
+.heading-primary-sub{
+  font-size: 2rem;
+}
+
+.heading-primary-date{
+  font-size: 2.4rem;
+}
+.event-heading{
+  font-size: 2.7rem;
+  padding-left: 4%;
+}
+
+.left{
+  float: none;
+}
+
+.right{
+  float: none;
+}
+
+.eimage2{
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.eimage1{
+  width: 100%; 
+  margin-bottom: 20%;
+}
+
+.event-details{
+  padding: 0;
+}
+.event-para{
+  font-size: 1.3rem;
+}
+.cta3{
+  font-size: 1.2rem;
+}
+
+#footer a{
+  font-size: 1.3rem;
+}
+.reg-para{
+  font-size: 1.3rem;
+}
+
+.reg-info{
+  font-size: 2rem;
+}
+}
+
+
+@media (min-width: 48rem) and (max-width: 64rem){
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.navrbar-toggler-icon{
+  width: 3rem;
+  height: 3rem;
+}
+.nav-link{
+  padding: 0;
+  font-size: 1.7rem;
+}
+
+.heading-primary-main{
+  font-size: 6rem;
+  letter-spacing: 2rem;
+}
+.heading-primary-sub{
+  font-size: 4rem;
+}
+
+.heading-primary-date{
+  font-size: 3.5rem;
+}
+
+#welcome a{
+  font-size: 2rem;
+}
+.reg-heading{
+  font-size: 4rem;
+}
+.reg-para{
+  font-size: 2rem;
+}
+
+.reg-info{
+  font-size: 3rem;
+}
+.event-heading{
+  letter-spacing: 2rem;
+  font-size: 4.5rem;
+}
+
+.event-main-title-1{
+  font-size: 4rem;
+}
+
+.event-name{
+  font-size: 3rem;
+}
+.event-para{
+  font-size: 2rem;
+}
+
+#events-intro button{
+  font-size: 2rem;
+}
+.gallery-heading{
+  font-size: 4rem;
+}
+
+.cta1{
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+.cta2{
+  font-size: 3rem;
+}
+.cta3{
+  font-size: 2.2rem;
+}
+#contact i{
+  font-size: 5rem;
+}
+#contact a{
+  font-size: 2.2rem;
+}
+
+#footer{
+  padding: 3.75rem;
+}
+#footer a{
+  font-size: 2rem;
+}
+.pfooter{
+  font-size: 1.7rem;
+}
+
+.left{
+  float: none;
+}
+
+.right{
+  float: none;
+}
+
+.eimage2{
+  width: 90%;
+  margin-bottom: 10%;
+}
+
+.eimage1{
+  width: 90%; 
+  margin-bottom: 10%;
+}
+}
+@media all and (max-width: 1024px){
+
+  .carousel-inner{
+  height: 54vh;
+}
+}
+@media all and (max-width: 768px)
+{
+  .carousel-inner{
+    height:42vh;
+  }
+}
+
+
+@media screen and (max-width: 680px)
+{
+  .other-sponsors{
+   
+    padding-left:4% !important;
+    padding-bottom:4% !important;
+    width:80%;
+
+  }
+  #mainsponsor{
+    width:100%;
+    padding:none;
+   }
+  .carousel-inner {
+    height: 28vh !important ;
+}
+}
+@media screen and (max-width:412px)
+{
+  .other-sponsors{
+   
+    padding-left:4% !important;
+    padding-bottom:4% !important;
+    width:80%;
+
+  }
+  #mainsponsor{
+    width:100%;
+    padding:none;
+   }
+  .carousel-inner {
+    height: 24vh !important ;
+}
+}
+
+@media screen and (max-width:375px)
+{
+  .other-sponsors{
+   
+    padding-left:4% !important;
+    padding-bottom:4% !important;
+    width:80%;
+
+  }
+  #mainsponsor{
+    width:100%;
+    padding:none;
+   }
+  .carousel-inner {
+    height:24vh !important ;
+}
+}
